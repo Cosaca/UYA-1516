@@ -1,0 +1,48 @@
+body {
+    background-color:#e0f2f1;
+}
+
+.brand-logo {
+    font-family: 'PT Sans', sans-serif;
+}
+
+h1 {
+    font-family: 'PT Sans', sans-serif;
+    text-align:center;
+    font-size:3em;
+}
+
+h2 {
+    text-align:center;
+    font-family: 'PT Sans', sans-serif;
+    font-size:3em;
+}
+
+p1 {
+    text-align:center;
+    display:inline-block;
+    font-family: 'Raleway', sans-serif;
+    font-size:1.5em;
+}
+
+p2 {
+    font-family: 'Raleway', sans-serif;
+    font-size:1em;
+}
+
+.page-footer {
+    font-family: 'PT Sans', sans-serif;
+}
+
+@media (max-width: 990px) {
+  .resizeimg {
+    height: auto;
+  }
+}
+
+@media (min-width: 1000px) {
+  .resizeimg {
+    width: auto;
+    height: 350px;
+  }
+}

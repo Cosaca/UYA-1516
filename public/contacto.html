@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+  <html lang="es">
+    <head>
+      <meta charset="UTF-8"></meta>
+      <!--Import Google Icon Font-->
+      <link rel=icon href=images/favicon.ico sizes="16x16" type="image/png">
+      
+      <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Import materialize.css-->
+      <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+      <!--Awesome Fonts -->
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.2/css/font-awesome.min.css">
+      <!--CSS-->
+      <link type="text/css" rel="stylesheet" href="css/formato.css"  media="screen,projection"/>
+      <!--Fuentes de Google-->
+      <link href='https://fonts.googleapis.com/css?family=PT+Sans:700' rel='stylesheet' type='text/css'>
+      <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    </head>
+    
+    <main>
+    <body>
+    <!--Barra de navegacion-->
+    <div class="navbar-fixed">
+    <nav class="blue lighten-1">
+    <a href="index.html" class="brand-logo center">Car4Share</a>
+    <ul class="right hide-on-med-and-down">
+      <li role="menuitem"><a href="index.html">Inicio</a></li>
+      <li role="menuitem"><a href="registro.html">Registro</a></li>
+      <li role="menuitem" class="active"><a href="contacto.html">Contacto</a></li>
+      <li role="menuitem"><a href="busqueda.html">Búsqueda</a></li>
+    </ul>
+    <ul id="slide-out" class="side-nav">
+      <li role="menuitem"><a href="index.html">Inicio</a></li>
+      <li role="menuitem"><a href="registro.html">Registro</a></li>
+      <li role="menuitem" class="active"><a href="contacto.html">Contacto</a></li>
+      <li role="menuitem"><a href="busqueda.html">Búsqueda</a></li>
+    </ul>
+    <a href="#" data-activates="slide-out" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
+    </nav>
+    </div>
+    
+    <!--Formulario-->
+    <div class="row">
+    <div class="col s12">
+       <h1 role="heading">Contacta con nosotros</h1>
+       <p1 role="main">
+           Con este servicio, nos proponemos tener satisfecho a todos nuestros clientes,
+           por lo que en caso de que tenga alguna sugerencia o queja acerca de Car4Share,
+           escríbalo en el campo de texto que se encuentra a continuación:
+        </p1>
+        <br>
+      <br>
+      Elija una de las dos opciones:
+      <br>
+      <br>
+      <input role="radio" name="group1" type="radio" id="test1" />
+      <label for="test1">Queja</label>
+      <br>
+      <input role="radio" name="group1" type="radio" id="test2" />
+      <label for="test2">Sugerencia</label>
+      
+      <div role="textbox" class="row">
+          <form class="col s12">
+            <div class="row">
+              <div class="input-field col s12">
+                <textarea id="textarea1" class="materialize-textarea"></textarea>
+                <label for="textarea1"><i class="fa fa-comment-o fa-2x" aria-hidden="true"></i> Escriba aquí...</label>
+              </div>
+            </div>
+          </form>
+      </div>
+        <button role="button" class="btn waves-effect waves-light" type="submit" name="action">Enviar
+        <i class="material-icons right"></i>
+        </button>
+      </div>
+    </div>
+      
+  
+    <!--Footer-->
+    <footer class="page-footer blue lighten-1">
+        <div class="container">
+            <div class="row">
+              <div class="col l6 s12">
+                 <h3 role="heading" class="white-text">Creadores:</h3>
+                <h5 class="white-text">Samuel Valcárcel Arce</h5>
+                <h5 class="white-text">Carlos de Armas Hernández</h5>
+              </div>
+              <div class="col l4 offset-l2 s12">
+                <h3 class="white-text">Conócenos:</h3>
+                <ul>
+                  <ul>
+                  <li><a role="link" class="grey-text text-lighten-3" href="https://github.com/"> <i title="Github" class="fa fa-github fa-3x"></i></a></li> 
+                  <li><a role="link" class="grey-text text-lighten-3" href="https://twitter.com/"><i title="Twitter" class="fa fa-twitter-square fa-3x" ></i></a></li> 
+                  <li><a role="link" class="grey-text text-lighten-3" href="https://www.facebook.com/"><i title="Facebook" class="fa fa-facebook-square fa-3x"></i></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="footer-copyright">
+            <div class="container">
+            © 2016 Copyright
+            </div>
+        </div>
+    </footer>
+    
+    <!--Import jQuery before materialize.js-->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="js/cliente.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    </body>
+    </main>
+  </html>

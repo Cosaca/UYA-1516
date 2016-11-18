@@ -1,0 +1,69 @@
+{
+    "coches": [
+        {
+            "modelo": "Honda Civic",
+            "conductor": "Marcelo Díaz",
+            "antiguedad": "17 meses",
+            "viajes_rutina": [
+                {
+                    "origen": "Madrid",
+                    "destino": "Barcelona"
+                }
+            ],
+            "otros_viajeros": [
+                "Manuel Cortés",
+                "Martín Ramos"
+            ],
+            "zonas_accion": [
+                "Centro de Madrid",
+                "Puerta del Sol"
+                
+            ]
+            
+        },
+        {
+            "modelo": "Alfa Romeo",
+            "conductor": "Miguel Frías",
+            "antiguedad": "4 meses",
+            "viajes_rutina": [
+                {
+                    "origen": "León", 
+                    "destino": "Burgos"
+                }
+            ],
+            "otros_viajeros":[
+                "Jesús Santana"
+            ],
+            "zonas_accion": [
+                "Noroeste de la Península Ibérica"
+                
+                
+            ]
+            
+        },
+        {
+            "modelo": "Dacia Sandero",
+            "conductor": "Lidia Fernández",
+            "antiguedad": "20 meses",
+            "viajes_rutina": [
+                {
+                    "origen": "La Laguna", 
+                    "destino": "Los Cristianos"
+                },
+                {
+                    "origen": "La Laguna", 
+                    "destino": "Puerto de la Cruz"
+                }
+            ],
+            "otros_viajeros":[
+                "Marta Lozano",
+                "Javier Álvarez"
+            ],
+            "zonas_accion": [
+                "Zona Norte de Tenerife"
+                
+            ]
+            
+        }
+    ]
+}
